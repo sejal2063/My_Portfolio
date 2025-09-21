@@ -106,3 +106,9 @@ function addPortfolioLinks() {
 
 // Call the function to set up the links after the page has loaded
 document.addEventListener("DOMContentLoaded", addPortfolioLinks);
+
+function downloadResume() {
+  // Get the hidden anchor tag by its ID
+  const downloadLink = document.getElementById('download-link');
+  downloadLink.click();
+}
