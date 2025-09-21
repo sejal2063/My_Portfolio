@@ -1,5 +1,5 @@
 // =======================typing animation===========================//
-var typed = new typed(".typing", {
+var typed = new Typed(".typing", {
     strings:["","Web Designer"," ","Web Devloper"],
     typeSpeed:100,
     BackSpeed:60,
@@ -90,3 +90,19 @@ const nav = document.querySelector(".nav"),
                 allSection[i].classList.toggle("open");
             }
         }
+      
+function addPortfolioLinks() {
+    const portfolioImages = document.querySelectorAll(".portfolio-img img");
+    portfolioImages.forEach(image => {
+        image.style.cursor = "pointer";
+        image.addEventListener("click", function() {
+            const projectUrl = this.getAttribute("data-project-url");
+            if (projectUrl) {
+                window.open(projectUrl, "_blank");
+            }
+        });
+    });
+}
+
+// Call the function to set up the links after the page has loaded
+document.addEventListener("DOMContentLoaded", addPortfolioLinks);
