@@ -13,9 +13,8 @@
 ## 🔧 Skills  
 | Category | Technologies |
 |---|---|
-| Frontend | HTML, CSS, JavaScript, React,(etc.) |
-| Backend | Node.js, Java, etc. |
-| Databases | MySQL, PostgreSQL, etc. |
+| Frontend | HTML, CSS, JavaScript, React,(etc.),Bootstrap |
+| Backend |Mysql, Java, etc. |
 | Tools & Others | Git, (etc.) |
 ---
 
@@ -23,8 +22,7 @@
 
 | Project | Description | Technologies | Live / GitHub |
 |---|---|---|---|
-| **Amezon_Clone** |An e-commerce web application built to mimic core features of Amazon: product browsing, cart, checkout, payment, admin panel, etc.. | React, Node.js, | [Demo](link) • [Code](https://github.com/sejal2063/Amezon_Clone.git) |
-| **Book_store** | Another project of online book store (Web app) | etc. |
+| **My_Portfolio** |This is my portfolio website, built using modern front-end tools and frameworks. It highlights my skills, education, and showcased projects — each demonstrating my approach to design and code. Dive in to explore my work, capabilities, and growth as a developer | React | [demo](https://sejal2063.github.io/My_Portfolio/)• [Code](https://github.com/sejal2063/My_Portfolio.git) |
 
 ---
 
