@@ -14,7 +14,6 @@
 | Category | Technologies |
 |---|---|
 | Frontend | HTML, CSS, JavaScript, React,(etc.),Bootstrap |
-| Backend |Mysql, Java, etc. |
 | Tools & Others | Git, (etc.) |
 ---
 
